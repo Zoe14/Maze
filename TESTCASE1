@@ -1,0 +1,95 @@
+input:
+board 6 3
+start 4 1
+end 0 0
+desired_path_length 7
+block 3 2 a
+block 1 2 b
+
+output:
+10candidate board(s)
+########
+#E  b  #
+#aaabS #
+#aaa   #
+########
+
+########
+#E     #
+#aaabS #
+#aaab  #
+########
+
+########
+#E    b#
+#aaa Sb#
+#aaa   #
+########
+
+########
+#E     #
+#aaa Sb#
+#aaa  b#
+########
+
+########
+#Eaaa  #
+#baaaS #
+#b     #
+########
+
+########
+#Eaaa b#
+# aaaSb#
+#      #
+########
+
+########
+#Eaaa  #
+# aaaSb#
+#     b#
+########
+
+########
+#E     #
+#baaaS #
+#baaa  #
+########
+
+########
+#E    b#
+# aaaSb#
+# aaa  #
+########
+
+########
+#E     #
+# aaaSb#
+# aaa b#
+########
+
+2solution(s) with path length 7
+########
+#Eaaa b#
+# aaaSb#
+#      #
+########
+
+########
+#Eaaa  #
+# aaaSb#
+#     b#
+########
+
+2 unique maze(s)
+########
+#E### ##
+# ###S##
+#      #
+########
+
+########
+#E###  #
+# ###S##
+#     ##
+########
